@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="7.597361">
+    <testcase classname="EcomHome features" name="Verifying Title of my ecommerce site" time="7.594936">
+        <system-out><![CDATA[Given I launch a chrome browser.............................................passed
+When I open the ecommerce website...........................................passed
+Then The title should be displayed correctly................................passed
+And Close browser...........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="EcomLogin features" name="Verify invalid login" time="0.002425">
+        <skipped><![CDATA[Given I launch the edge browser.............................................pending
+When I open the ecom website................................................skipped
+When I enter invalid username and password..................................skipped
+Then I should not be successfully logged in.................................skipped
+And close browser...........................................................skipped
+]]></skipped>
+    </testcase>
+</testsuite>
