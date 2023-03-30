@@ -1,0 +1,3 @@
+2023-03-02 21:21:24.668 [main] INFO  com.gqa.tests.EcomTest - Initiating logs for Tests
+2023-03-02 21:21:25.584 [main] INFO  com.gqa.tests.EcomTest - Initiating Reports
+2023-03-02 21:21:25.618 [TestNG-test=Ecom Site Test-1] INFO  com.gqa.tests.EcomTest - Initiating tests on CH browser
