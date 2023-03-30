@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1618400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.initialize()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify Login",
+        "description": "",
+        "id": "tag-features;verify-login",
+        "after": [
+          {
+            "result": {
+              "duration": 107300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 355500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "This is a login test",
+            "match": {
+              "location": "TagSteps.this_is_a_login_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 77900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.initialize()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify Shopping Cart",
+        "description": "",
+        "id": "tag-features;verify-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 29500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 139100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "This is a shopping cart test",
+            "match": {
+              "location": "TagSteps.this_is_a_shopping_cart_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Tag features",
+    "description": "",
+    "id": "tag-features",
+    "keyword": "Feature",
+    "uri": "Features\\Tag.feature",
+    "tags": []
+  }
+]
